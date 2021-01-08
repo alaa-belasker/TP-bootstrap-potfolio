@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "PlayBall", sans-serif;
   color: #272829;
 }
 
@@ -31,13 +31,13 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  display: none;
+  display: block;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: #d58adf;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: #d151e2;
   transition: background 0.2s ease-in-out;
 }
 
@@ -392,7 +392,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: #b21ec5;
 }
 
 .about .content p:last-child {
@@ -495,7 +495,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Unna", sans-serif;
   color: #d58adf9c;
   margin-bottom: 10px;
 }
@@ -564,7 +564,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #ec97ec;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1174,8 +1174,18 @@ section {
 
 .carousel-control-next,
 .carousel-control-prev{
-  color: black
+  color: #e00792;
+  font-size: 65px;
 }
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+  color: #e00792 !important;
+}
+
+.carousel-item img {
+   height: 450px;
+   margin: auto;
+  }
 
 .modal-title{
   color: #bb05b5b5;
