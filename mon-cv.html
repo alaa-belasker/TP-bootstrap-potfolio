@@ -12,10 +12,12 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css2?family=Unna&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -49,12 +51,33 @@
         <li><a href="a-propos-de-moi.html"><i class="bx bx-user"></i> <span>A propos de moi</span></a></li>
         <li class="active"><a href="mon-cv.html"><i class="bx bx-file-blank"></i> <span>Mon CV</span></a></li>
         <li><a href="portfolio.html"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>
         <li><a href="contact.html"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a  data-toggle="modal" data-target="#myModal" onclick="date()"><i class="far fa-calendar-alt"></i> <span>Date d'aujourd'hui</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
   </header><!-- End Header -->
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Aujourd'hui</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+          <p id="date"> </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" style="color: white;background-color: #bb05b5b5;" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
 <!-- ======= Resume Section ======= -->
 <section id="resume" class="resume">
     <div class="container" data-aos="fade-up">
@@ -176,7 +199,7 @@
 <!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="jumbotron">
-        <h1 class="display-4">BELASKER Alaa</h1>
+        <h3 class="display-4">Alaa BELASKER</h3>
         <span>Une pationnée de developpement et de biologie</span>
       </div>
   <div class="container">
@@ -212,6 +235,8 @@
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
+
+<script src="modal.js"></script>
 
 </body>
 
