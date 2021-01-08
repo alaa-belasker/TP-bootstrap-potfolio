@@ -327,6 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  min-height: 100vh
 }
 
 .section-title {
@@ -909,7 +910,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #e0069280;
   float: left;
   width: 44px;
   height: 44px;
@@ -941,7 +942,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #bb05b5b5;
   color: #fff;
 }
 
@@ -1019,7 +1020,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+  background: #da20d3b5;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1028,7 +1029,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0678e3;
+  background: #bb05b5b5;
 }
 
 @-webkit-keyframes animate-loading {
