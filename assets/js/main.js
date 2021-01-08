@@ -108,7 +108,7 @@
   });
 
   // Back to top button
-  $(window).scroll(function() {
+ /* $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
     } else {
@@ -121,7 +121,7 @@
       scrollTop: 0
     }, 1500, 'easeInOutExpo');
     return false;
-  });
+  });*/
 
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
@@ -172,20 +172,6 @@
 
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
+ 
 
 })(jQuery);
